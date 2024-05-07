@@ -1,6 +1,6 @@
 ### Environment notes for generate_tfrecord(@datitran/raccoon_dataset)
 
-link : https://github.com/datitran/raccoon_dataset/blob/master/generate_tfrecord.py
+link:https://github.com/datitran/raccoon_dataset/blob/master/generate_tfrecord.py
 
 ## PIP LIST
 - Python 3.7 **
