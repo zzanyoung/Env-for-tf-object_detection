@@ -1,8 +1,9 @@
-### Environment notes for generate_tfrecord(@datitran/raccoon_dataset)
+### Environment notes for generate_tfrecord.py
 
-link:https://github.com/datitran/raccoon_dataset/blob/master/generate_tfrecord.py
+@datitran/raccoon_dataset<br>
+https://github.com/datitran/raccoon_dataset/blob/master/generate_tfrecord.py
 
-## PIP LIST
+## PIP LIST (package/version)
 - Python 3.7 **
 - Keras-Applications   1.0.8 **
 - Keras-Preprocessing  1.1.2 **
