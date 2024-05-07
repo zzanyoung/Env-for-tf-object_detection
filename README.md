@@ -1,7 +1,7 @@
 ### Environment notes for generate_tfrecord.py
 
-@datitran/raccoon_dataset<br>
-https://github.com/datitran/raccoon_dataset/blob/master/generate_tfrecord.py
+@DarshanDeshpande/tfrecord-generator<br>
+https://github.com/DarshanDeshpande/tfrecord-generator/blob/main/text/csv_to_tfrecords.py
 
 ## PIP LIST (package/version)
 - Python 3.7 
