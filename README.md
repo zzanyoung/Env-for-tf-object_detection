@@ -5,7 +5,8 @@ This repository documents supplementary materials for training object detection 
 ## Detail
 
 #### * builder.py
-The protobuf error that occurs during the object_detection API installation process is resolved as follows.<br>
+This file is missing in protobuf 3.19.6.<br>
+This is necessary to resolve errors that occur during the process of installing and checking the object detection API.<br>
 -> After installing Protocol Buffer version 22.0, follow the solution with the most votes at the address below.
 https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal<br>
 
