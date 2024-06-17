@@ -4,6 +4,12 @@ This repository documents supplementary materials for training object detection 
 
 ## Detail
 
+#### * Test.py
+This is a Python test code that inputs an image into a saved model and outputs object recognition results.
+
+#### * TfliteConverter.py
+This is a Python script that converts SavedModel to tflite format.
+
 #### * builder.py
 This file is missing in protobuf 3.19.6.<br>
 This is necessary to resolve errors that occur during the process of installing and checking the object detection API.<br>
@@ -14,7 +20,7 @@ https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-buil
 #### * generate_tfrecord.py 
 deprecated.
 <br>now using RoboFlow<br>
-
+https://universe.roboflow.com
 
 #### * requirements.txt 
 This is information on the packages installed within my Python virtual environment.<br>
