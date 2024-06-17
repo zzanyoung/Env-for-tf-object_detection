@@ -1,17 +1,27 @@
-# Env-for-tf-ML
+# Env-for-tf-object_detection
 
-This repository is an environment note for TensorFlow machine learning.
+This repository documents supplementary materials for training object detection models in TensorFlow. The object detection API used is based on the TensorFlow Model Garden repository (https://github.com/tensorflow/models).
 
-- ### Generate TFRecords
-~~@DarshanDeshpande/tfrecord-generator<br>~~
-~~https://github.com/DarshanDeshpande/tfrecord-generator/blob/main/text/csv_to_tfrecords.py~~
-<br>**-> Now using RoboFlow**
+## Detail
 
----
-
-- ### The protobuf error that occurs during the object_detection API installation process is resolved as follows.
+#### builder.py
+The protobuf error that occurs during the object_detection API installation process is resolved as follows.<br>
 -> After installing Protocol Buffer version 22.0, follow the solution with the most votes at the address below.
-https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal
+https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal<br><br>
+
+
+#### generate_tfrecord.py 
+deprecated.
+<br>now using RoboFlow<br><br>
+
+
+#### requirements.txt 
+This is information on the packages installed within my Python virtual environment.<br>
+Run the command below in the folder where the file is located.
+```
+pip install .
+```
+
 
 
 ## PIP LIST (package/version)
