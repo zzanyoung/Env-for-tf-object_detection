@@ -5,7 +5,7 @@ This repository documents supplementary materials for training object detection 
 ## Detail
 
 #### * Test.py
-This is a Python test code that inputs an image into a saved model and outputs object recognition results.
+This is a Python test script that inputs an image into a saved model and outputs object recognition results.
 
 #### * TfliteConverter.py
 This is a Python script that converts SavedModel to tflite format.
