@@ -1,26 +1,24 @@
 # Env-for-tf-object_detection
 
-This repository documents supplementary materials for training object detection models in TensorFlow. The object detection API used is based on the TensorFlow Model Garden repository (https://github.com/tensorflow/models).<br>
+This repository documents supplementary materials for training object detection models in TensorFlow. The object detection API used is based on the TensorFlow Model Garden repository (https://github.com/tensorflow/models).<br><br>
 
 ## Detail
 
 #### * Test.py
-This is a Python test script that inputs an image into a saved model and outputs object recognition results.
+This is a Python test script that inputs an image into a saved model and outputs object recognition results.<br><br>
 
 #### * TfliteConverter.py
-This is a Python script that converts SavedModel to tflite format.
+This is a Python script that converts SavedModel to tflite format.<br><br>
 
 #### * builder.py
 **This file is subject to the Google Protocol Buffer License.**<br>
 This file is missing in protobuf 3.19.6. This is necessary to resolve errors that occur during the process of installing and checking the object detection API. After installing Protocol Buffer version 22.0, follow the solution with the most votes at the address below.
-https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal<br>
-
-
+https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal<br><br>
 
 #### * generate_tfrecord.py 
 deprecated.
 <br>now using RoboFlow<br>
-https://universe.roboflow.com
+https://universe.roboflow.com<br><br>
 
 #### * requirements.txt 
 This is information on the packages installed within my Python virtual environment.<br>
@@ -28,7 +26,7 @@ Run the command below in the folder where the file is located.
 ```
 pip install .
 ```
-
+<br>
 
 
 ## PIP LIST (package/version)
