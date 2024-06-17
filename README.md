@@ -11,10 +11,10 @@ This is a Python test script that inputs an image into a saved model and outputs
 This is a Python script that converts SavedModel to tflite format.
 
 #### * builder.py
-This file is missing in protobuf 3.19.6.<br>
-This is necessary to resolve errors that occur during the process of installing and checking the object detection API.<br>
--> After installing Protocol Buffer version 22.0, follow the solution with the most votes at the address below.
+**This file is subject to the Google Protocol Buffer License.**<br>
+This file is missing in protobuf 3.19.6. This is necessary to resolve errors that occur during the process of installing and checking the object detection API. After installing Protocol Buffer version 22.0, follow the solution with the most votes at the address below.
 https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal<br>
+
 
 
 #### * generate_tfrecord.py 
