@@ -1,11 +1,21 @@
-### Environment notes for generate_tfrecord.py
+# Env-for-tf-ML
 
-@DarshanDeshpande/tfrecord-generator<br>
-https://github.com/DarshanDeshpande/tfrecord-generator/blob/main/text/csv_to_tfrecords.py
+This repository is an environment note for TensorFlow machine learning.
+
+- ### Generate TFRecords
+~~@DarshanDeshpande/tfrecord-generator<br>~~
+~~https://github.com/DarshanDeshpande/tfrecord-generator/blob/main/text/csv_to_tfrecords.py~~
+<br>**-> Now using RoboFlow**
+
+---
+
+- ### The protobuf error that occurs during the object_detection API installation process is resolved as follows.
+-> After installing Protocol Buffer version 22.0, follow the solution with the most votes at the address below.
+https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal
+
 
 ## PIP LIST (package/version)
 Package                       Version
------------------------------ -----------
 absl-py                       1.4.0<br>
 apache-beam                   2.46.0<br>
 astor                         0.8.1<br>
