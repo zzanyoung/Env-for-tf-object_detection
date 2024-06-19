@@ -1,11 +1,11 @@
 import tensorflow as tf
 import numpy as np
 
-saved_model_dir = "saved_model" # SavedModel Path
+saved_model_dir = "saved_model" # SavedModel dir Path
 
 converter = tf.lite.TFLiteConverter.from_saved_model(saved_model_dir)
 
-converter.optimizations = [tf.lite.Optimize.OPTIMIZE_FOR_SIZE] #Option
+# converter.optimizations = [tf.lite.Optimize.OPTIMIZE_FOR_SIZE] #Option
 
 # type option
 # converter.inference_input_type = tf.uint8
