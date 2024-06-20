@@ -4,10 +4,10 @@ This repository documents supplementary materials for training object detection 
 
 ## Detail
 
-#### * Test.py
-This is a Python test script that inputs an image into a saved model and outputs object recognition results. <br><br>
+#### * 1_ImgObjDetection_saveModel.py <br> * 2_WebcamObjDetection_savedModel.py
+This is a Python test script that inputs an image or webcam frame into a saved model and outputs object recognition results. <br><br>
 
-#### * TfliteConverter.py
+#### * 3_TfliteConverter.py
 This is a Python script that converts SavedModel to tflite format. the most basic code provided in the official TensorFlow documentation.<br>
 [https://www.tensorflow.org/lite/models/convert/convert_models?hl=ko](https://www.tensorflow.org/lite/models/convert/convert_models?hl=ko#savedmodel_%EB%B3%80%ED%99%98%EA%B6%8C%EC%9E%A5)
 <br><br>
