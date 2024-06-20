@@ -14,7 +14,7 @@ This is a Python script that converts SavedModel to tflite format. the most basi
 
 #### * builder.py
 **This file is subject to the Google Protocol Buffer License.**<br>
-The protobuf 3.16 package is missing builder.py. This is necessary to resolve errors that occur during the process of installing and checking the object detection API. After installing Protocol Buffer version 22.0, follow the solution with the most votes at the address below. 
+The protobuf 3.16 package is missing 'builder.py'. but 'builer.py' is necessary to resolve errors that occur during the process of installing and checking the object detection API. After installing Protocol Buffer version 22.0, follow the solution with the most votes at the address below. 
 
 ```
 # builder.py path
