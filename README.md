@@ -28,7 +28,6 @@ And if you're looking for the location of builder.py, refer to the path below.
 # Path of builder.py
 venv(or conda)dir/Lib/site-packages/google/protobuf/internal
 ```
-<br>
 
 #### * generate_tfrecord.py 
 deprecated.
