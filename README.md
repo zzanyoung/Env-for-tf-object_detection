@@ -12,16 +12,23 @@ This is a Python script that converts saved_model(ssd_mobilenet_v2_fpn_keras) to
 [https://www.tensorflow.org/lite/models/convert/convert_models?hl=ko](https://www.tensorflow.org/lite/models/convert/convert_models?hl=ko#savedmodel_%EB%B3%80%ED%99%98%EA%B6%8C%EC%9E%A5)
 <br><br>
 
-#### * builder.py
-**This file is subject to the Google Protocol Buffer License.**<br>
-The protobuf 3.16 package is missing 'builder.py'. but 'builer.py' is necessary to resolve errors that occur during the process of installing and checking the object detection API. After installing Protocol Buffer version 22.0, follow the solution with the most votes at the address below. 
-
+#### * builder.py **(This file is subject to the Google Protocol Buffer License)**<br>
+Solution in case the error below occurs:
 ```
-# builder.py path
+TypeError: Descriptors cannot be created directly.
+If this call came from a _pb2.py file, your generated code is out of date and must be regenerated with protoc >= 3.19.0.
+If you cannot immediately regenerate your protos, some other possible workarounds are:
+ 1. Downgrade the protobuf package to 3.20.x or lower.
+ 2. Set PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python (but this will use pure-Python parsing and will be much slower)
+```
+The protobuf 3.16 package is missing 'builder.py', which is necessary for resolving errors that may occur during the installation and verification of the object detection API. To address this, install Protocol Buffer version 22.0 and then refer to the solution with the most votes at the link provided below.
+https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal<br><br>
+And if you're looking for the location of builder.py, refer to the path below.
+```
+# Path of builder.py
 venv(or conda)dir/Lib/site-packages/google/protobuf/internal
 ```
-
-https://stackoverflow.com/questions/71759248/importerror-cannot-import-name-builder-from-google-protobuf-internal<br><br>
+<br>
 
 #### * generate_tfrecord.py 
 deprecated.
