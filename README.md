@@ -5,7 +5,15 @@ This repository documents supplementary materials for training object detection 
 If you are facing difficulties training a custom model, we recommend referring to the repository below. It provides a well-structured guide for training object recognition models.<br>
 
 https://github.com/abhimanyu1990/SSD-Mobilenet-Custom-Object-Detector-Model-using-Tensorflow-2<br><br>
-*Note: The link below does not include the object detection API installation process. You need to follow the steps from the tensorflow/models repository to install the API* <br><br>
+*Note: The link below does not include the object detection API installation process. You need to follow the steps from the tensorflow/models repository to install the API* <br>
+<details>
+<summary> API Installation Summary</summary>
+The Process is: <br>
+&nbsp;&nbsp;1. Build models/research/object_detection/protos using protoc.<br>
+&nbsp;&nbsp;2. Move models/research/object_detection/packages/tf2/setup.py to the research directory.<br>
+&nbsp;&nbsp;3. Install the package using pip.<br><br>
+</details>
+
 
 ## Detail
 
