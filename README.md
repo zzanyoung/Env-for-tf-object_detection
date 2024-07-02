@@ -57,7 +57,7 @@ https://universe.roboflow.com<br><br>
 This is information on the packages installed within my Python virtual environment.<br>
 Run the command below in the folder where the file is located.
 ```
-pip install .
+pip install -r requirements.txt
 ```
 <br>
 
