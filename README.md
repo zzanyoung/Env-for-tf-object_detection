@@ -47,7 +47,6 @@ And if you're looking for the location of builder.py, refer to the path below.
 venv(or conda)dir/Lib/site-packages/google/protobuf/internal
 ```
 
-
 #### * generate_tfrecord.py 
 deprecated.
 <br>now using RoboFlow<br>
@@ -60,7 +59,6 @@ Run the command below in the folder where the file is located.
 pip install -r requirements.txt
 ```
 <br>
-
 
 ## PIP LIST
 <details>
