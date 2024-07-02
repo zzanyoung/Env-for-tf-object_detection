@@ -20,7 +20,12 @@ The Process is: <br>
 #### * 1_ImgObjDetection_saveModel.py <br> * 2_WebcamObjDetection_savedModel.py
 This is a Python test script that inputs an image or webcam frame into a saved_model(ssd_mobilenet_v2_fpn_keras) and outputs object recognition results. <br><br>
 
-#### * 3_TfliteConverter.py
+#### * 3_SsdTfliteConverter.ipynb
+Colab scripts are used when the virtual environment doesn't work properly on your local machine.<br>
+https://colab.research.google.com/drive/1VhU9SyaFQn4ToNfKVrn0SdHglE5fionB?usp=sharing
+<br><br>
+
+#### * 3_TfliteConverter.py <br>
 This is a Python script that converts saved_model(ssd_mobilenet_v2_fpn_keras) to tflite format. the most basic code provided in the official TensorFlow documentation.<br>
 [https://www.tensorflow.org/lite/models/convert/convert_models?hl=ko](https://www.tensorflow.org/lite/models/convert/convert_models?hl=ko#savedmodel_%EB%B3%80%ED%99%98%EA%B6%8C%EC%9E%A5)
 <br><br>
