@@ -1,6 +1,9 @@
 # Env-for-tf-object_detection
 
-This repository documents supplementary materials for training object detection models in TensorFlow. The object detection API used is based on the TensorFlow Model Garden repository (https://github.com/tensorflow/models).<br><br>
+This repository documents supplementary materials for training object detection models in TensorFlow. The object detection API used is based on the TensorFlow Model Garden repository (https://github.com/tensorflow/models).<br>
+
+If you are facing difficulties training a custom model, we recommend referring to the repository below. It provides a well-structured guide for training object recognition models.<br>
+https://github.com/abhimanyu1990/SSD-Mobilenet-Custom-Object-Detector-Model-using-Tensorflow-2<br><br>
 
 ## Detail
 
@@ -44,6 +47,9 @@ pip install .
 <br>
 
 
+## PIP LIST
+<details>
+ 
 ## PIP LIST (package/version)
 Package                       Version
 absl-py                       1.4.0<br>
@@ -179,3 +185,5 @@ wheel                         0.42.0<br>
 wrapt                         1.16.0<br>
 zipp                          3.15.0<br>
 zstandard                     0.21.0<br>
+
+</details>
