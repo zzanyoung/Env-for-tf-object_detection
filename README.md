@@ -3,7 +3,9 @@
 This repository documents supplementary materials for training object detection models in TensorFlow. The object detection API used is based on the TensorFlow Model Garden repository (https://github.com/tensorflow/models).<br>
 
 If you are facing difficulties training a custom model, we recommend referring to the repository below. It provides a well-structured guide for training object recognition models.<br>
+
 https://github.com/abhimanyu1990/SSD-Mobilenet-Custom-Object-Detector-Model-using-Tensorflow-2<br><br>
+*Note: The link below does not include the object detection API installation process. You need to follow the steps from the tensorflow/models repository to install the API* <br><br>
 
 ## Detail
 
